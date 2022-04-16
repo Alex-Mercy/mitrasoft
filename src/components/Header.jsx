@@ -8,41 +8,40 @@ import { LinkContainer } from 'react-router-bootstrap'
 function Header() {
     return (
 
-
-        <Navbar bg="dark" variant="dark" expand={false}>
-            <Container>
+        <Container >
+            <Navbar bg="dark" variant="dark" expand={false}>
                 <Navbar.Brand href="/">
                     <Link style={{ textDecoration: 'none' }} to='/'>
                         <Image
                             src={avatar}
                             roundedCircle
                             height='40'
+                            className='mx-3'
                         />
-
-                        <Navbar.Text className='mx-3'
+                        <Navbar.Text 
                         >Alex Mercy</Navbar.Text>
                     </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-nav-dropdown" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Toggle aria-controls="basic-nav-dropdown" className='mx-3'/>
+                <Navbar.Collapse id="basic-navbar-nav" className='mx-3'>
                     <Nav >
                         <Navbar.Text
                         >m-alex225@yandex.ru</Navbar.Text>
                         <LinkContainer to='/'>
                             <Nav.Link>
-                                About
+                                Galery
                             </Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to='/galery'>
+                        <LinkContainer to='/about'>
                             <Nav.Link>
-                                Galery
+                                About
                             </Nav.Link>
                         </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
 
+            </Navbar>
+        </Container>
     )
 }
 
