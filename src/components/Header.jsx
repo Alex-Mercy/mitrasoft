@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Container, Image, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Image, Nav, Navbar} from 'react-bootstrap'
 import avatar from '../assets/images/avatar.png';
 import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap'
@@ -10,7 +10,7 @@ function Header() {
 
         <Container >
             <Navbar bg="dark" variant="dark" expand={false}>
-                <Navbar.Brand href="/">
+                <Navbar.Brand>
                     <Link style={{ textDecoration: 'none' }} to='/'>
                         <Image
                             src={avatar}

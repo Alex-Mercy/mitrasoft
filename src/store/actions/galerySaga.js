@@ -1,12 +1,14 @@
-import { all, call, put, takeLatest } from 'redux-saga/effects';
+import { all, call, put, takeLatest, delay } from 'redux-saga/effects';
 
-import { setPhotos,  photosFailure } from './galeryAC';
+import {setLoaded, setPhotos, photosFailure } from './galeryAC';
 import { getPhotos, } from '../api';
 import types from './actionTypes';
 
 
 export function* setPhotosSaga() {
   try {
+    yield put(setLoaded(false));
+    yield delay(500)
     const response = yield call(getPhotos);
     yield put(setPhotos(response.data))
   } catch (error) {
