@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { useSelector, useDispatch, } from 'react-redux';
 
+import styles from './Picture.module.css'
 import { onSetPhotos, setCategory } from '../store/actions/galeryAC';
 import Loader from '../components/Loader';
 
@@ -21,8 +22,7 @@ function Galery() {
 
     return (
         <div>
-            
-                 <Container className="mt-3" >
+            <Container className="mt-3" >
                     <div className="my-3 px-2">
                         <Button className="mx-2" onClick={onSelectCategory} value='sunset' variant="outline-success">Sunset</Button>
                         <Button className="mx-2" onClick={onSelectCategory} value='beach' variant="outline-success">Beach</Button>
@@ -33,8 +33,9 @@ function Galery() {
                     ? <Row xs={1} lg={3} md={2} className="g-4" mx='10' >
                         {photos.map(photo => {
                             return <Col key={photo.id}>
-                                <Card>
+                                <Card className={styles.container}>
                                     <Card.Img height='210' variant="top" src={photo.url}  />
+                                    <Button className={styles.btn}>Details</Button>
                                 </Card>
                             </Col>
                         })}
