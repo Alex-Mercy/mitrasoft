@@ -5,11 +5,12 @@ import { getPhotos, } from '../api';
 import types from './actionTypes';
 
 
-export function* setPhotosSaga() {
+export function* setPhotosSaga({ payload: category }) {
+
   try {
     yield put(setLoaded(false));
     yield delay(500)
-    const response = yield call(getPhotos);
+    const response = yield getPhotos(category);
     yield put(setPhotos(response.data))
   } catch (error) {
     yield put(photosFailure(error));

@@ -4,6 +4,7 @@ const initialState = {
     photos: [],
     isLoaded: true,
     error: null,
+    category: 'beach',
 };
 
 const galeryReducer = (state = initialState, action) => {
@@ -19,7 +20,12 @@ const galeryReducer = (state = initialState, action) => {
                 photos: action.payload,
                 isLoaded: true,
             };
-        
+        case types.SET_CATEGORY:
+            return {
+                ...state,
+                category: action.payload,
+            };
+
         default:
             return state;
     }

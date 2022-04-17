@@ -2,32 +2,35 @@ import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { useSelector, useDispatch, } from 'react-redux';
 
-import { onSetPhotos, } from '../store/actions/galeryAC';
+import { onSetPhotos, setCategory } from '../store/actions/galeryAC';
 import Loader from '../components/Loader';
 
 function Galery() {
     const dispatch = useDispatch();
-    const { photos, isLoaded } = useSelector(({ galery }) => galery);
+    const { photos, isLoaded, category } = useSelector(({ galery }) => galery);
 
 
     React.useEffect(() => {
-        dispatch(onSetPhotos(photos));
-    }, []);
+        dispatch(onSetPhotos(category));
+    }, [dispatch, category]);
 
 
-
+    const onSelectCategory = (e) => {
+        dispatch(setCategory(e.target.value))
+    }
 
     return (
         <div>
-            {isLoaded
-                ? <Container className="mt-3" >
+            
+                 <Container className="mt-3" >
                     <div className="my-3 px-2">
-                        <Button className="mx-2" variant="outline-success">Sunset</Button>
-                        <Button className="mx-2" variant="outline-success">Beach</Button>
-                        <Button className="mx-2" variant="outline-success">Animals</Button>
-                        <Button className="mx-2" variant="outline-success">Night</Button>
+                        <Button className="mx-2" onClick={onSelectCategory} value='sunset' variant="outline-success">Sunset</Button>
+                        <Button className="mx-2" onClick={onSelectCategory} value='beach' variant="outline-success">Beach</Button>
+                        <Button className="mx-2" onClick={onSelectCategory} value='animals' variant="outline-success">Animals</Button>
+                        <Button className="mx-2" onClick={onSelectCategory} value='night' variant="outline-success">Night</Button>
                     </div>
-                    <Row xs={1} lg={3} md={2} className="g-4" mx='10' >
+                    {isLoaded
+                    ? <Row xs={1} lg={3} md={2} className="g-4" mx='10' >
                         {photos.map(photo => {
                             return <Col key={photo.id}>
                                 <Card>
@@ -36,9 +39,11 @@ function Galery() {
                             </Col>
                         })}
                     </Row>
+                    : <Loader />
+                }
                 </Container>
-                : <Loader />
-            }
+                
+            
 
         </div>
     )
