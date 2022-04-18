@@ -1,9 +1,9 @@
 import React from 'react'
 import { useSelector, useDispatch, } from 'react-redux';
-import { useMatch } from "react-router-dom";
-import { Card, Col, Container, Row } from 'react-bootstrap'
+import { Link, useMatch } from "react-router-dom";
+import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 
-import { onSetPhotoDetails } from '../store/actions/galeryAC';
+import { onSetPhotoDetails} from '../store/actions/galeryAC';
 import Loader from '../components/Loader';
 
 
@@ -16,7 +16,7 @@ function PictureDetails() {
 
   React.useEffect(() => {
     dispatch(onSetPhotoDetails(photoId));
-  }, []);
+  }, [dispatch, photoId]);
 
   return (
     <Container>
@@ -31,8 +31,13 @@ function PictureDetails() {
                 </Card.Text>
               </Card.Body>
             </Card>
+            <Link style={{ textDecoration: 'none' }} to={`/`}>
+            <Button className='mt-1'>Go back</Button>
+            </Link>
           </Col>
+
         </Row>
+
         : <Loader />
       }
 

@@ -8,7 +8,7 @@ import { onSetPhotos, setCategory } from '../store/actions/galeryAC';
 import Loader from '../components/Loader';
 
 
-function Galery() {
+const Galery = React.memo(() => {
     const dispatch = useDispatch();
     const { photos, isLoaded, category } = useSelector(({ galery }) => galery);
 
@@ -48,11 +48,9 @@ function Galery() {
                     : <Loader />
                 }
                 </Container>
-                
-            
-
         </div>
     )
 }
+)
 
 export default Galery
