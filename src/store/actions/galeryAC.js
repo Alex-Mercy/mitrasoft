@@ -11,9 +11,19 @@ export const setPhotos = (photos) => ({
     payload: photos,
 });
 
-export const onSetPhotos = (category) => ({
+export const onSetPhotos = (payload) => ({
     type: types.ON_SET_PHOTOS,
-    payload: category,
+    payload
+});
+
+export const setPhotoDetails = (photo) => ({
+    type: types.SET_PHOTO_Detail,
+    payload: photo,
+});
+
+export const onSetPhotoDetails = (payload) => ({
+    type: types.ON_SET_PHOTO_Details,
+    payload
 });
 
 export const photosFailure = (error) => ({

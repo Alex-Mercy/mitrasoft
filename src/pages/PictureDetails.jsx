@@ -1,14 +1,43 @@
 import React from 'react'
-import { Button, Card } from 'react-bootstrap'
+import { useSelector, useDispatch, } from 'react-redux';
+import { useMatch } from "react-router-dom";
+import { Card, Col, Container, Row } from 'react-bootstrap'
 
-import styles from './Picture.module.css'
+import { onSetPhotoDetails } from '../store/actions/galeryAC';
+import Loader from '../components/Loader';
+
 
 function PictureDetails() {
+  const dispatch = useDispatch();
+  const { photoDetails: photo, isLoaded } = useSelector(({ galery }) => galery);
+
+  const match = useMatch("/details/:id/");
+  const photoId = match.params.id;
+
+  React.useEffect(() => {
+    dispatch(onSetPhotoDetails(photoId));
+  }, []);
+
   return (
-    <Card className={styles.container}> 
-      <Card.Img src='https://images.pexels.com/photos/1142948/pexels-photo-1142948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
-      <Button className={styles.btn}>Button</Button>
-    </Card>
+    <Container>
+      {isLoaded
+        ? <Row className="justify-content-center my-4">
+          <Col xs={8}>
+            <Card>
+              <Card.Img height='400' variant="top" src={photo.url} />
+              <Card.Body>
+                <Card.Text>
+                  {photo.details}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        : <Loader />
+      }
+
+
+    </Container>
   )
 }
 

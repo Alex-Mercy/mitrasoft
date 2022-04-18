@@ -34,7 +34,7 @@ function Header() {
                         </LinkContainer>
                         <LinkContainer to='/about'>
                             <Nav.Link>
-                                About
+                                About me
                             </Nav.Link>
                         </LinkContainer>
                     </Nav>

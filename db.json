@@ -3,202 +3,242 @@
     {
       "id": 0,
       "url": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Sunset, also known as sundown, is the daily disappearance of the Sun below the horizon due to Earth's rotation. As viewed from everywhere on Earth (except the North and South poles), the equinox Sun sets due west at the moment of both the Spring and Autumn equinox. As viewed from the Northern Hemisphere"
     },
     {
       "id": 1,
       "url": "https://images.pexels.com/photos/3998365/pexels-photo-3998365.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "The time of sunset is defined in astronomy as the moment when the upper limb of the Sun disappears below the horizon.[1] Near the horizon, atmospheric refraction causes sunlight rays to be distorted to such an extent that geometrically the solar disk is already about one diameter below the horizon when a sunset is observed"
     },
     {
       "id": 2,
       "url": "https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Sunset is distinct from twilight, which is divided into three stages. The first one is civil twilight, which begins once the Sun has disappeared below the horizon, and continues until it descends to 6 degrees below the horizon. The second phase is nautical twilight, between 6 and 12 degrees below the horizon. "
     },
     {
       "id": 3,
       "url": "https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "As for the third one, it is astronomical twilight, which is the period when the Sun is between 12 and 18 degrees below the horizon.[2] Dusk is at the very end of astronomical twilight, and is the darkest moment of twilight just before night.[3] Finally, night occurs when the Sun reaches 18 degrees below the horizon and no longer illuminates the sky"
     },
     {
       "id": 4,
       "url": "https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "The time of sunset varies throughout the year, and is determined by the viewer's position on Earth, specified by latitude and longitude, altitude, and time zone. Small daily changes and noticeable semi-annual changes in the timing of sunsets are driven by the axial tilt of Earth, daily rotation of the Earth"
     },
     {
       "id": 5,
       "url": "https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper malesuada proin libero nunc consequat."
     },
     {
       "id": 6,
       "url": "https://images.pexels.com/photos/462023/pexels-photo-462023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis ultricies lacus sed turpis tincidunt."
     },
     {
       "id": 7,
       "url": "https://images.pexels.com/photos/219998/pexels-photo-219998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim diam quis enim lobortis scelerisque fermentum dui."
     },
     {
       "id": 8,
       "url": "https://images.pexels.com/photos/87812/pexels-photo-87812.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc scelerisque viverra mauris in aliquam sem."
     },
     {
       "id": 9,
       "url": "https://images.pexels.com/photos/1237119/pexels-photo-1237119.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "sunset"
+      "category": "sunset",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque."
     },
     {
       "id": 10,
       "url": "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "A beach is a landform alongside a body of water which consists of loose particles. The particles composing a beach are typically made from rock, such as sand, gravel, shingle, pebbles, etc., or biological sources, such as mollusc shells or coralline algae. Sediments settle in different densities and structures, depending on the local wave action and weather, creating different textures, colors and gradients or layers of material."
     },
     {
       "id": 11,
       "url": "https://images.pexels.com/photos/315998/pexels-photo-315998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "Sandy beaches occupy about one third of global coastlines.[2] These beaches are popular for recreation, playing important economic and cultural roles—often driving local tourism industries."
     },
     {
       "id": 12,
       "url": "https://images.pexels.com/photos/1172518/pexels-photo-1172518.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "Wild beaches, also known as undeveloped or undiscovered beaches, are not developed for tourism or recreation. Preserved beaches are important biomes with important roles in aquatic or marine biodiversity, such as for breeding grounds for sea turtles or nesting areas for seabirds or penguins."
     },
     {
       "id": 13,
       "url": "https://images.pexels.com/photos/1998439/pexels-photo-1998439.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "The sand deposit may extend well inland from the berm crest, where there may be evidence of one or more older crests (the storm beach) resulting from very large storm waves and beyond the influence of the normal waves."
     },
     {
       "id": 14,
       "url": "https://images.pexels.com/photos/3601421/pexels-photo-3601421.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "If storms coincide with unusually high tides, or with a freak wave event such as a tidal surge or tsunami which causes significant coastal flooding, substantial quantities of material may be eroded from the coastal plain or dunes behind the berm by receding water."
     },
     {
       "id": 15,
       "url": "https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "Beaches are the result of wave action by which waves or currents move sand or other loose sediments of which the beach is made as these particles are held in suspension."
     },
     {
       "id": 16,
       "url": "https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "The composition of the beach depends upon the nature and quantity of sediments upstream of the beach, and the speed of flow and turbidity of water and wind. Sediments are moved by moving water and wind according to their particle size and state of compaction. Particles tend to settle and compact in still water."
     },
     {
       "id": 17,
       "url": "https://images.pexels.com/photos/1362480/pexels-photo-1362480.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "Fine sediment transported from lower down the beach profile will compact if the receding water percolates or soaks into the beach. Compacted sediment is more resistant to movement by turbulent water from succeeding waves. Conversely, waves are destructive if the period between the wave crests is short."
     },
     {
       "id": 18,
       "url": "https://images.pexels.com/photos/416726/pexels-photo-416726.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "Constructive waves move material up the beach while destructive waves move the material down the beach. During seasons when destructive waves are prevalent, the shallows will carry an increased load of sediment and organic matter in suspension."
     },
     {
       "id": 19,
       "url": "https://images.pexels.com/photos/1142948/pexels-photo-1142948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "beach"
+      "category": "beach",
+      "details": "During hot calm seasons, a crust may form on the surface of ocean beaches as the heat of the sun evaporates the water leaving the salt which crystallises around the sand particles. This crust forms an additional protective layer that resists wind erosion unless disturbed by animals or dissolved by the advancing tide."
     },
     {
       "id": 20,
       "url": "https://images.pexels.com/photos/37833/rainbow-lorikeet-parrots-australia-rainbow-37833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "The family Psittacidae or parrots is one of three families of true parrots. It comprises the roughly 10 species of subfamily Psittacinae (the Old World or Afrotropical parrots) and 157 of subfamily Arinae (the New World or Neotropical parrots), as well as several species that have gone extinct in recent centuries"
     },
     {
       "id": 21,
       "url": "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "The cat (Felis catus) is a domestic species of small carnivorous mammal.[1][2] It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family"
     },
     {
       "id": 22,
       "url": "https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "The cat is similar in anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth and retractable claws adapted to killing small prey. Its night vision and sense of smell are well developed. Cat communication includes vocalizations like meowing, purring, trilling, hissing, growling and grunting as well as cat-specific body language"
     },
     {
       "id": 23,
       "url": "https://images.pexels.com/photos/631292/pexels-photo-631292.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "A rhinoceros ( from Greek rhinokerōs 'nose-horned', from rhis 'nose', and keras 'horn'), commonly abbreviated to rhino, is a member of any of the five extant species (or numerous extinct species) of odd-toed ungulates in the family Rhinocerotidae. (It can also refer to a member of any of the extinct species of the superfamily Rhinocerotoidea.) Two of the extant species are native to Africa, and three to South and Southeast Asia."
     },
     {
       "id": 24,
       "url": "https://images.pexels.com/photos/535431/pexels-photo-535431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "A gazelle is any of many antelope species in the genus Gazella. This article also deals with the seven species included in two further genera, Eudorcas and Nanger, which were formerly considered subgenera of Gazella. A third former subgenus, Procapra, includes three living species of Asian gazelles."
     },
     {
       "id": 25,
       "url": "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": ""
     },
     {
       "id": 26,
       "url": "https://images.pexels.com/photos/814898/pexels-photo-814898.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "The horse (Equus ferus caballus)[2][3] is a domesticated, odd-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large, single-toed animal of today. "
     },
     {
       "id": 27,
       "url": "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange fur with a white underside. An apex predator, it primarily preys on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habita"
     },
     {
       "id": 28,
       "url": "https://images.pexels.com/photos/37833/rainbow-lorikeet-parrots-australia-rainbow-37833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis egestas integer eget aliquet nibh."
     },
     {
       "id": 29,
       "url": "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "animals"
+      "category": "animals",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus."
     },
     {
       "id": 30,
       "url": "https://images.pexels.com/photos/3162989/pexels-photo-3162989.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Night (also described as night time, night-time, or nighttime, unconventionally spelled as nite) is the period of ambient darkness from sunset to sunrise during each 24-hour day, when the Sun is below the horizon."
     },
     {
       "id": 31,
       "url": "https://images.pexels.com/photos/534757/pexels-photo-534757.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Astronomical night is the period between astronomical dusk and astronomical dawn when the Sun is between 18 and 90 degrees below the horizon and does not illuminate the sky. As seen from latitudes between about 48.56° and 65.73° north or south of the Equator"
     },
     {
       "id": 32,
       "url": "https://images.pexels.com/photos/66867/norman-oklahoma-lightning-dangerous-66867.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "On Earth, an average night lasts shorter than daytime due to two factors. Firstly, the Sun's apparent disk is not a point, but has an angular diameter of about 32 arcminutes (32'). Secondly, the atmosphere refracts sunlight so that some of it reaches the ground when the Sun is below the horizon by about 34"
     },
     {
       "id": 33,
       "url": "https://images.pexels.com/photos/91216/pexels-photo-91216.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "The phenomenon of day and night is due to the rotation of a celestial body about its axis, creating an illusion of the sun rising and setting. Different bodies spin at very different rates, however. Some may spin much faster than Earth"
     },
     {
       "id": 34,
       "url": "https://images.pexels.com/photos/134643/pexels-photo-134643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "The disappearance of sunlight, the primary energy source for life on Earth, has dramatic effects on the morphology, physiology and behavior of almost every organism. Some animals sleep during the night, while other nocturnal animals including moths and crickets are active during this time. "
     },
     {
       "id": 35,
       "url": "https://images.pexels.com/photos/847402/pexels-photo-847402.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Electric light was invented during 1835.[4] As artificial lighting has improved, especially after the Industrial Revolution, night time activity has increased and become a significant part of the economy in most places. "
     },
     {
       "id": 36,
       "url": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc eget lorem dolor sed viverra."
     },
     {
       "id": 37,
       "url": "https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non tellus."
     },
     {
       "id": 38,
       "url": "https://images.pexels.com/photos/315938/pexels-photo-315938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor neque vitae tempus quam pellentesque nec nam."
     },
     {
       "id": 39,
       "url": "https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "category": "night"
+      "category": "night",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna."
     }
 
   ]
